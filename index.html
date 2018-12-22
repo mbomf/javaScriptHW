@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Psychic Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="row wrapper">
+        <div class="col-sm-3">
+            <img id="pyschimg" src="assets/images/Psych_16x9_FeaturedPromo_2560x1440.png" alt="pysch the show">
+        </div>
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2">
+            <div class="pysch"></div>
+        </div>
+
+        <div class="col-sm-6 text-center">
+            <header>
+                <img style="width:250px;height:76px;" src="assets/images/Psych.svg.png" alt="pyschlogo">
+                <h1>The Game</h1>
+            </header>
+            <div class="instructions">
+                <h3>Try to guess the letter that Shawn picked psychically. Any letter from A - Z!</h3>
+                <br>
+                <h2>Are you pysch-ic?</h2>
+
+            </div>
+            <!--Empty Div for the tallies-->
+            <div id="game">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span id="wins">Wins: </span>
+                    </li>
+                    <li class="list-group-item">
+                        <p id="losses">Losses: </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p id="guessLeft">Guesses Left: </p>
+                    </li>
+                    <li class="list-group-item">
+                        <p id="let">Your Guesses so far: </p>
+                    </li>
+                    <li class="list-group-item">
+                        <button class="btn btn-default btn-lg active" id="reset">
+                            Reset
+                        </button> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <footer class="footer text-center push">
+
+                </footer>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/js/app.js">
+        </script>
+</body>
+
+</html>
